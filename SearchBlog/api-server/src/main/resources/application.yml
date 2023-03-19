@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      ddl-auto: none
+
+spring:
+  config:
+    import:
+      - dataSource.yml
+      - kakao.yml
+      - naver.yml
+  jackson:
+    property-naming-strategy: LOWER_CAMEL_CASE
+    default-property-inclusion: NON_NULL

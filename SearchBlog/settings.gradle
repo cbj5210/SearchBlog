@@ -1,0 +1,11 @@
+pluginManagement {
+	repositories {
+		maven { url 'https://repo.spring.io/milestone' }
+		maven { url 'https://repo.spring.io/snapshot' }
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'SearchBlog'
+include("api-server")
+include("batch-server")
+include("core-module")

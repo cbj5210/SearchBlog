@@ -1,0 +1,6 @@
+naver:
+  api:
+    host: openapi.naver.com
+    client-id: dx_DyYQPJWd0EglQ_lRz
+    client-key: H_eDOqIxIf
+    search-blog: /v1/search/blog.json

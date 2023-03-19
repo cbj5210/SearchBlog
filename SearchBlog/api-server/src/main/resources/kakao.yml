@@ -1,0 +1,5 @@
+kakao:
+  api:
+    host: dapi.kakao.com
+    rest-api-key: 511f348ba750a979b3be94a3c4a3a501
+    search-blog: /v2/search/blog

@@ -1,0 +1,14 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:~/search-blog-db;AUTO_SERVER=TRUE
+    username: sa
+    password:
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:h2-schema.sql
