@@ -99,7 +99,6 @@ public class PopularKeywordResponse {
 ```
 
 # 🌱 Database (h2)
-******
 ## Table 명세
 * 검색 이력 테이블
   * api-server에서 블로그를 검색할 때마다 search_history 테이블에 검색 이력을 저장 합니다.
@@ -121,7 +120,6 @@ public class PopularKeywordResponse {
 
 
 # ⚙️ 개발 환경
-******
 * JAVA 17
 * Spring Boot 2.7.10-SNAPSHOT
 * 외부 라이브러리 & 오픈 소스, 사용 목적
@@ -129,6 +127,5 @@ public class PopularKeywordResponse {
   * Apache Commons-lang3 : String 처리
 
 # 💬 Maintainers
-******
 * Byungjun Choi
 * cbj5210@nate.com
